@@ -1,0 +1,288 @@
+The system is: Windows - 10.0.19044 - AMD64
+Checking whether the CUDA compiler is NVIDIA using "" matched "nvcc: NVIDIA \(R\) Cuda compiler driver":
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2019 NVIDIA Corporation
+Built on Sun_Jul_28_19:12:52_Pacific_Daylight_Time_2019
+Cuda compilation tools, release 10.1, V10.1.243
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
+Compiler: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/nvcc.exe 
+Build flags: 
+Id flags: --keep;--keep-dir;tmp -v
+
+The output was:
+0
+
+E:\mydata\cuda\kmeans\cmake-build-debug\CMakeFiles\3.20.2\CompilerIdCUDA>call "D:/Soft/Vistual Studio2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/../../../../../../../VC/Auxiliary/Build/vcvars64.bat" 
+**********************************************************************
+** Visual Studio 2017 Developer Command Prompt v15.9.50
+** Copyright (c) 2017 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+#$ D:/Soft/Vistual Studio2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/../../../../../../../VC/Auxiliary/Build/vcvars64.bat
+#$ ALLUSERSPROFILE=C:\ProgramData
+#$ APPDATA=C:\Users\admin\AppData\Roaming
+#$ AWE_DIR=C:\Program Files (x86)\Khrona LLC\Awesomium SDK\1.6.6\
+#$ CCHZPATH=C:\CTeX\LOCALT~1\cct\fonts
+#$ CCPKPATH=C:\CTeX\LOCALT~1\fonts\pk\modeless\cct\dpi$d
+#$ CLion=D:\Soft\CLion 2021.2.2\bin;
+#$ CLION_IDE=TRUE
+#$ CommandPromptType=Native
+#$ CommonProgramFiles=C:\Program Files\Common Files
+#$ CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+#$ CommonProgramW6432=C:\Program Files\Common Files
+#$ COMPUTERNAME=DESKTOP-FG98TEP
+#$ ComSpec=C:\WINDOWS\system32\cmd.exe
+#$ CUDA_BIN_PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin
+#$ CUDA_LIB_PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64
+#$ CUDA_PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1
+#$ CUDA_PATH_V10_1=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1
+#$ CUDA_SDK_BIN_PATH=C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\bin\win64
+#$ CUDA_SDK_LIB_PATH=C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\common\lib\x64
+#$ CUDA_SDK_PATH=C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1
+#$ DevEnvDir=D:\Soft\Vistual Studio2017\Community\Common7\IDE\
+#$ DriverData=C:\Windows\System32\Drivers\DriverData
+#$ ExtensionSdkDir=C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs
+#$ Framework40Version=v4.0
+#$ FrameworkDir=C:\Windows\Microsoft.NET\Framework64\
+#$ FrameworkDir64=C:\Windows\Microsoft.NET\Framework64\
+#$ FrameworkVersion=v4.0.30319
+#$ FrameworkVersion64=v4.0.30319
+#$ GoLand=D:\Soft\GoLand 2021.3.2\bin;
+#$ GOPATH=C:\Users\admin\go
+#$ HOMEDRIVE=C:
+#$ HOMEPATH=\Users\admin
+#$ IDEA_INITIAL_DIRECTORY=D:\Soft\CLion 2021.2.2\bin
+#$ INCLUDE=D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\include;D:\Windows Kits\10\include\10.0.17763.0\ucrt;D:\Windows Kits\10\include\10.0.17763.0\shared;D:\Windows Kits\10\include\10.0.17763.0\um;D:\Windows Kits\10\include\10.0.17763.0\winrt;D:\Windows Kits\10\include\10.0.17763.0\cppwinrt
+#$ JETBRAINS_IDE=TRUE
+#$ LIB=D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\lib\x64;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64;D:\Windows Kits\10\lib\10.0.17763.0\ucrt\x64;D:\Windows Kits\10\lib\10.0.17763.0\um\x64;
+#$ LIBPATH=D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\lib\x64;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\lib\x86\store\references;D:\Windows Kits\10\UnionMetadata\10.0.17763.0;D:\Windows Kits\10\References\10.0.17763.0;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;
+#$ LOCALAPPDATA=C:\Users\admin\AppData\Local
+#$ LOGONSERVER=\\DESKTOP-FG98TEP
+#$ NUMBER_OF_PROCESSORS=6
+#$ NVCUDASAMPLES10_1_ROOT=C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1
+#$ NVCUDASAMPLES_ROOT=C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1
+#$ NVTOOLSEXT_PATH=C:\Program Files\NVIDIA Corporation\NvToolsExt\
+#$ OneDrive=C:\Users\admin\OneDrive
+#$ OneDriveConsumer=C:\Users\admin\OneDrive
+#$ OS=Windows_NT
+#$ Path=D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64;D:\Soft\Vistual Studio2017\Community\Common7\IDE\VC\VCPackages;D:\Soft\Vistual Studio2017\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;D:\Soft\Vistual Studio2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;D:\Soft\Vistual Studio2017\Community\MSBuild\15.0\bin\Roslyn;D:\Soft\Vistual Studio2017\Community\Team Tools\Performance Tools\x64;D:\Soft\Vistual Studio2017\Community\Team Tools\Performance Tools;D:\Soft\Vistual Studio2017\Shared\Common\VSPerfCollectionTools\\x64;D:\Soft\Vistual Studio2017\Shared\Common\VSPerfCollectionTools\;D:\Windows Kits\10\bin\10.0.17763.0\x64;D:\Windows Kits\10\bin\x64;D:\Soft\Vistual Studio2017\Community\\MSBuild\15.0\bin;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;D:\Soft\Vistual Studio2017\Community\Common7\IDE\;D:\Soft\Vistual Studio2017\Community\Common7\Tools\;D:\Soft\CodeBlocks\MinGW\bin;C:\CTeX\LOCALT~1\ty\bin;C:\CTeX\LOCALT~1\cct\bin;C:\CTeX\texmf\miktex\bin;C:\CTeX\gs\gs8.51\bin;C:\CTeX\WinEdt;C:\Program Files\OpenSSH-Win64;c:\windows\system32;C:\Program Files\Go\bin;C:\Program Files (x86)\ZeroTier\One\;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;D:\Soft\Vistual Studio2017\Community\;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64;D:\Windows Kits\10\Lib\10.0.17763.0\ucrt\x64;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\include;D:\Windows Kits\10\Lib\10.0.17763.0\ucrt;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\Soft\PyCharm Community Edition 2020.2.1\bin;D:\Soft\VS Code\Microsoft VS Code\bin;C:\texlive\2021\bin\win32;C:\Program Files\JetBrains\PyCharm 2020.1\bin;D:\Soft\CLion 2021.2.2\bin;;D:\Soft\GoLand 2021.3.2\bin;;C:\Users\admin\go\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\bin\win64;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\common\lib\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1;D:\Soft\CLion 2021.2.2\bin\cmake\win\bin\;;D:\Soft\Vistual Studio2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;D:\Soft\Vistual Studio2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja
+#$ PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+#$ Platform=x64
+#$ PROCESSOR_ARCHITECTURE=AMD64
+#$ PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+#$ PROCESSOR_LEVEL=6
+#$ PROCESSOR_REVISION=9e0a
+#$ ProgramData=C:\ProgramData
+#$ ProgramFiles=C:\Program Files
+#$ ProgramFiles(x86)=C:\Program Files (x86)
+#$ ProgramW6432=C:\Program Files
+#$ PROMPT=$P$G
+#$ PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+#$ PUBLIC=C:\Users\Public
+#$ PyCharm=C:\Program Files\JetBrains\PyCharm 2020.1\bin;
+#$ PyCharm Community Edition=D:\Soft\PyCharm Community Edition 2020.2.1\bin;
+#$ SESSIONNAME=Console
+#$ SystemDrive=C:
+#$ SystemRoot=C:\WINDOWS
+#$ UCRTVersion=10.0.17763.0
+#$ UniversalCRTSdkDir=D:\Windows Kits\10\
+#$ USERDOMAIN=DESKTOP-FG98TEP
+#$ USERDOMAIN_ROAMINGPROFILE=DESKTOP-FG98TEP
+#$ USERNAME=admin
+#$ USERPROFILE=C:\Users\admin
+#$ VCIDEInstallDir=D:\Soft\Vistual Studio2017\Community\Common7\IDE\VC\
+#$ VCINSTALLDIR=D:\Soft\Vistual Studio2017\Community\VC\
+#$ VCToolsInstallDir=D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\
+#$ VCToolsRedistDir=D:\Soft\Vistual Studio2017\Community\VC\Redist\MSVC\14.16.27012\
+#$ VCToolsVersion=14.16.27023
+#$ VisualStudioVersion=15.0
+#$ VS150COMNTOOLS=D:\Soft\Vistual Studio2017\Community\Common7\Tools\
+#$ VSCMD_ARG_app_plat=Desktop
+#$ VSCMD_ARG_HOST_ARCH=x64
+#$ VSCMD_ARG_TGT_ARCH=x64
+#$ VSCMD_VER=15.9.50
+#$ vsconsoleoutput=1
+#$ VSINSTALLDIR=D:\Soft\Vistual Studio2017\Community\
+#$ VS_INCLUDE_PATH=D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\include;D:\Windows Kits\10\Lib\10.0.17763.0\ucrt
+#$ VS_LIB_PATH=D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64;D:\Windows Kits\10\Lib\10.0.17763.0\ucrt\x64
+#$ VS_PATH=D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64
+#$ windir=C:\WINDOWS
+#$ WindowsLibPath=D:\Windows Kits\10\UnionMetadata\10.0.17763.0;D:\Windows Kits\10\References\10.0.17763.0
+#$ WindowsSdkBinPath=D:\Windows Kits\10\bin\
+#$ WindowsSdkDir=D:\Windows Kits\10\
+#$ WindowsSDKLibVersion=10.0.17763.0\
+#$ WindowsSdkVerBinPath=D:\Windows Kits\10\bin\10.0.17763.0\
+#$ WindowsSDKVersion=10.0.17763.0\
+#$ __DOTNET_ADD_64BIT=1
+#$ __DOTNET_PREFERRED_BITNESS=64
+#$ __VSCMD_PREINIT_PATH=D:\Soft\CodeBlocks\MinGW\bin;C:\CTeX\LOCALT~1\ty\bin;C:\CTeX\LOCALT~1\cct\bin;C:\CTeX\texmf\miktex\bin;C:\CTeX\gs\gs8.51\bin;C:\CTeX\WinEdt;C:\Program Files\OpenSSH-Win64;c:\windows\system32;C:\Program Files\Go\bin;C:\Program Files (x86)\ZeroTier\One\;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;D:\Soft\Vistual Studio2017\Community\;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64;D:\Windows Kits\10\Lib\10.0.17763.0\ucrt\x64;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\include;D:\Windows Kits\10\Lib\10.0.17763.0\ucrt;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\Soft\PyCharm Community Edition 2020.2.1\bin;D:\Soft\VS Code\Microsoft VS Code\bin;C:\texlive\2021\bin\win32;C:\Program Files\JetBrains\PyCharm 2020.1\bin;D:\Soft\CLion 2021.2.2\bin;;D:\Soft\GoLand 2021.3.2\bin;;C:\Users\admin\go\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\bin\win64;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\common\lib\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1;D:\Soft\CLion 2021.2.2\bin\cmake\win\bin\;
+#$ PATH=D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64;D:\Soft\Vistual Studio2017\Community\Common7\IDE\VC\VCPackages;D:\Soft\Vistual Studio2017\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;D:\Soft\Vistual Studio2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;D:\Soft\Vistual Studio2017\Community\MSBuild\15.0\bin\Roslyn;D:\Soft\Vistual Studio2017\Community\Team Tools\Performance Tools\x64;D:\Soft\Vistual Studio2017\Community\Team Tools\Performance Tools;D:\Soft\Vistual Studio2017\Shared\Common\VSPerfCollectionTools\\x64;D:\Soft\Vistual Studio2017\Shared\Common\VSPerfCollectionTools\;D:\Windows Kits\10\bin\10.0.17763.0\x64;D:\Windows Kits\10\bin\x64;D:\Soft\Vistual Studio2017\Community\\MSBuild\15.0\bin;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;D:\Soft\Vistual Studio2017\Community\Common7\IDE\;D:\Soft\Vistual Studio2017\Community\Common7\Tools\;D:\Soft\CodeBlocks\MinGW\bin;C:\CTeX\LOCALT~1\ty\bin;C:\CTeX\LOCALT~1\cct\bin;C:\CTeX\texmf\miktex\bin;C:\CTeX\gs\gs8.51\bin;C:\CTeX\WinEdt;C:\Program Files\OpenSSH-Win64;c:\windows\system32;C:\Program Files\Go\bin;C:\Program Files (x86)\ZeroTier\One\;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;D:\Soft\Vistual Studio2017\Community\;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64;D:\Windows Kits\10\Lib\10.0.17763.0\ucrt\x64;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\include;D:\Windows Kits\10\Lib\10.0.17763.0\ucrt;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\Soft\PyCharm Community Edition 2020.2.1\bin;D:\Soft\VS Code\Microsoft VS Code\bin;C:\texlive\2021\bin\win32;C:\Program Files\JetBrains\PyCharm 2020.1\bin;D:\Soft\CLion 2021.2.2\bin;;D:\Soft\GoLand 2021.3.2\bin;;C:\Users\admin\go\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\bin\win64;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\common\lib\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1;D:\Soft\CLion 2021.2.2\bin\cmake\win\bin\;;D:\Soft\Vistual Studio2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;D:\Soft\Vistual Studio2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ _HERE_=C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin
+#$ _THERE_=C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ _TARGET_SIZE_=64
+#$ _WIN_PLATFORM_=x64
+#$ TOP=C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/..
+#$ NVVMIR_LIBRARY_DIR=C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/../nvvm/libdevice
+#$ PATH=C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/../nvvm/bin;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/../lib;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64;D:\Soft\Vistual Studio2017\Community\Common7\IDE\VC\VCPackages;D:\Soft\Vistual Studio2017\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;D:\Soft\Vistual Studio2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;D:\Soft\Vistual Studio2017\Community\MSBuild\15.0\bin\Roslyn;D:\Soft\Vistual Studio2017\Community\Team Tools\Performance Tools\x64;D:\Soft\Vistual Studio2017\Community\Team Tools\Performance Tools;D:\Soft\Vistual Studio2017\Shared\Common\VSPerfCollectionTools\\x64;D:\Soft\Vistual Studio2017\Shared\Common\VSPerfCollectionTools\;D:\Windows Kits\10\bin\10.0.17763.0\x64;D:\Windows Kits\10\bin\x64;D:\Soft\Vistual Studio2017\Community\\MSBuild\15.0\bin;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;D:\Soft\Vistual Studio2017\Community\Common7\IDE\;D:\Soft\Vistual Studio2017\Community\Common7\Tools\;D:\Soft\CodeBlocks\MinGW\bin;C:\CTeX\LOCALT~1\ty\bin;C:\CTeX\LOCALT~1\cct\bin;C:\CTeX\texmf\miktex\bin;C:\CTeX\gs\gs8.51\bin;C:\CTeX\WinEdt;C:\Program Files\OpenSSH-Win64;c:\windows\system32;C:\Program Files\Go\bin;C:\Program Files (x86)\ZeroTier\One\;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;D:\Soft\Vistual Studio2017\Community\;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64;D:\Windows Kits\10\Lib\10.0.17763.0\ucrt\x64;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\include;D:\Windows Kits\10\Lib\10.0.17763.0\ucrt;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\Soft\PyCharm Community Edition 2020.2.1\bin;D:\Soft\VS Code\Microsoft VS Code\bin;C:\texlive\2021\bin\win32;C:\Program Files\JetBrains\PyCharm 2020.1\bin;D:\Soft\CLion 2021.2.2\bin;;D:\Soft\GoLand 2021.3.2\bin;;C:\Users\admin\go\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\bin\win64;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\common\lib\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1;D:\Soft\CLion 2021.2.2\bin\cmake\win\bin\;;D:\Soft\Vistual Studio2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;D:\Soft\Vistual Studio2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja
+#$ INCLUDES="-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/../include"  
+#$ LIBRARIES=  "/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/../lib/x64"
+#$ CUDAFE_FLAGS=
+#$ PTXAS_FLAGS=
+#$ erase tmp/a_dlink.reg.c
+CMakeCUDACompilerId.cu
+#$ cl.exe @"tmp/CMakeCUDACompilerId.cpp1.ii.res" > "tmp/CMakeCUDACompilerId.cpp1.ii" 
+CMakeCUDACompilerId.cu
+#$ cicc --microsoft_version=1916 --msvc_target_version=1916 --compiler_bindir "D:/Soft/Vistual Studio2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/../../../../../../.." --sdk_dir "D:/Windows Kits/10/" --allow_managed  -arch compute_30 -m64 -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "CMakeCUDACompilerId.fatbin.c" -tused -nvvmir-library "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/../nvvm/libdevice/libdevice.10.bc" --gen_module_id_file --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" --orig_src_file_name "CMakeCUDACompilerId.cu" --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.c" --stub_file_name "tmp/CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "tmp/CMakeCUDACompilerId.cudafe1.gpu"  "tmp/CMakeCUDACompilerId.cpp1.ii" -o "tmp/CMakeCUDACompilerId.ptx"
+#$ ptxas -arch=sm_30 -m64 "tmp/CMakeCUDACompilerId.ptx"  -o "tmp/CMakeCUDACompilerId.sm_30.cubin" 
+#$ fatbinary --create="tmp/CMakeCUDACompilerId.fatbin" -64 --cmdline="" "--image=profile=sm_30,file=tmp/CMakeCUDACompilerId.sm_30.cubin" "--image=profile=compute_30,file=tmp/CMakeCUDACompilerId.ptx" --embedded-fatbin="tmp/CMakeCUDACompilerId.fatbin.c" 
+#$ cl.exe @"tmp/CMakeCUDACompilerId.cpp4.ii.res" > "tmp/CMakeCUDACompilerId.cpp4.ii" 
+CMakeCUDACompilerId.cu
+#$ cudafe++ --microsoft_version=1916 --msvc_target_version=1916 --compiler_bindir "D:/Soft/Vistual Studio2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/../../../../../../.." --sdk_dir "D:/Windows Kits/10/" --allow_managed --m64 --parse_templates --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" "tmp/CMakeCUDACompilerId.cpp4.ii" 
+#$ cl.exe @"tmp/CMakeCUDACompilerId.obj.res" -Fo"tmp/CMakeCUDACompilerId.obj" 
+CMakeCUDACompilerId.cudafe1.cpp
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(49): warning C4083: 应输入“)”；找到标识符“C4819”
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt/device_functions.h(49): warning C4083: 应输入“)”；找到标识符“C4819”
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\device_double_functions.h(49): warning C4083: 应输入“)”；找到标识符“C4819”
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\sm_20_intrinsics.h(54): warning C4083: 应输入“)”；找到标识符“C4819”
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(49): warning C4083: 应输入“)”；找到标识符“C4819”
+#$ nvlink --arch=sm_30 --register-link-binaries="tmp/a_dlink.reg.c"  -m64   "/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/../lib/x64" -cpu-arch=X86_64 "tmp/CMakeCUDACompilerId.obj"  -o "tmp/a_dlink.sm_30.cubin"
+#$ fatbinary --create="tmp/a_dlink.fatbin" -64 --cmdline="" -link "--image=profile=sm_30,file=tmp/a_dlink.sm_30.cubin" --embedded-fatbin="tmp/a_dlink.fatbin.c" 
+#$ cl.exe @"tmp/a_dlink.obj.res" -Fo"tmp/a_dlink.obj" 
+link.stub
+#$ cl.exe @"tmp/a.exe.res" -Fe"a.exe" 
+  正在创建库 a.lib 和对象 a.exp
+
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "a.exe"
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "a.exp"
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "a.lib"
+
+The CUDA compiler identification is NVIDIA, found in "E:/mydata/cuda/kmeans/cmake-build-debug/CMakeFiles/3.20.2/CompilerIdCUDA/a.exe"
+
+Parsed CUDA nvcc implicit link information from above output:
+  found 'PATH=' string: [D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64;D:\Soft\Vistual Studio2017\Community\Common7\IDE\VC\VCPackages;D:\Soft\Vistual Studio2017\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;D:\Soft\Vistual Studio2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;D:\Soft\Vistual Studio2017\Community\MSBuild\15.0\bin\Roslyn;D:\Soft\Vistual Studio2017\Community\Team Tools\Performance Tools\x64;D:\Soft\Vistual Studio2017\Community\Team Tools\Performance Tools;D:\Soft\Vistual Studio2017\Shared\Common\VSPerfCollectionTools\\x64;D:\Soft\Vistual Studio2017\Shared\Common\VSPerfCollectionTools\;D:\Windows Kits\10\bin\10.0.17763.0\x64;D:\Windows Kits\10\bin\x64;D:\Soft\Vistual Studio2017\Community\\MSBuild\15.0\bin;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;D:\Soft\Vistual Studio2017\Community\Common7\IDE\;D:\Soft\Vistual Studio2017\Community\Common7\Tools\;D:\Soft\CodeBlocks\MinGW\bin;C:\CTeX\LOCALT~1\ty\bin;C:\CTeX\LOCALT~1\cct\bin;C:\CTeX\texmf\miktex\bin;C:\CTeX\gs\gs8.51\bin;C:\CTeX\WinEdt;C:\Program Files\OpenSSH-Win64;c:\windows\system32;C:\Program Files\Go\bin;C:\Program Files (x86)\ZeroTier\One\;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;D:\Soft\Vistual Studio2017\Community\;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64;D:\Windows Kits\10\Lib\10.0.17763.0\ucrt\x64;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\include;D:\Windows Kits\10\Lib\10.0.17763.0\ucrt;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\Soft\PyCharm Community Edition 2020.2.1\bin;D:\Soft\VS Code\Microsoft VS Code\bin;C:\texlive\2021\bin\win32;C:\Program Files\JetBrains\PyCharm 2020.1\bin;D:\Soft\CLion 2021.2.2\bin;;D:\Soft\GoLand 2021.3.2\bin;;C:\Users\admin\go\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\bin\win64;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\common\lib\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1;D:\Soft\CLion 2021.2.2\bin\cmake\win\bin\;;D:\Soft\Vistual Studio2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;D:\Soft\Vistual Studio2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja]
+  found 'LIBRARIES=' string: ["/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/../lib/x64"]
+  considering line: []
+  considering line: [E:\mydata\cuda\kmeans\cmake-build-debug\CMakeFiles\3.20.2\CompilerIdCUDA>call "D:/Soft/Vistual Studio2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/../../../../../../../VC/Auxiliary/Build/vcvars64.bat" ]
+  considering line: [**********************************************************************]
+  considering line: [** Visual Studio 2017 Developer Command Prompt v15.9.50]
+  considering line: [** Copyright (c) 2017 Microsoft Corporation]
+  considering line: [**********************************************************************]
+  considering line: [[vcvarsall.bat] Environment initialized for: 'x64']
+  considering line: [D:/Soft/Vistual Studio2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/../../../../../../../VC/Auxiliary/Build/vcvars64.bat]
+  considering line: [PyCharm Community Edition=D:\Soft\PyCharm Community Edition 2020.2.1\bin]
+  considering line: []
+  considering line: [erase tmp/a_dlink.reg.c]
+  considering line: [CMakeCUDACompilerId.cu]
+  considering line: [cl.exe @"tmp/CMakeCUDACompilerId.cpp1.ii.res" > "tmp/CMakeCUDACompilerId.cpp1.ii" ]
+  considering line: [CMakeCUDACompilerId.cu]
+  considering line: [cicc --microsoft_version=1916 --msvc_target_version=1916 --compiler_bindir "D:/Soft/Vistual Studio2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/../../../../../../.." --sdk_dir "D:/Windows Kits/10/" --allow_managed  -arch compute_30 -m64 -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "CMakeCUDACompilerId.fatbin.c" -tused -nvvmir-library "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/../nvvm/libdevice/libdevice.10.bc" --gen_module_id_file --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" --orig_src_file_name "CMakeCUDACompilerId.cu" --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.c" --stub_file_name "tmp/CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "tmp/CMakeCUDACompilerId.cudafe1.gpu"  "tmp/CMakeCUDACompilerId.cpp1.ii" -o "tmp/CMakeCUDACompilerId.ptx"]
+  considering line: [ptxas -arch=sm_30 -m64 "tmp/CMakeCUDACompilerId.ptx"  -o "tmp/CMakeCUDACompilerId.sm_30.cubin" ]
+  considering line: [fatbinary --create="tmp/CMakeCUDACompilerId.fatbin" -64 --cmdline="" "--image=profile=sm_30,file=tmp/CMakeCUDACompilerId.sm_30.cubin" "--image=profile=compute_30,file=tmp/CMakeCUDACompilerId.ptx" --embedded-fatbin="tmp/CMakeCUDACompilerId.fatbin.c" ]
+  considering line: [cl.exe @"tmp/CMakeCUDACompilerId.cpp4.ii.res" > "tmp/CMakeCUDACompilerId.cpp4.ii" ]
+  considering line: [CMakeCUDACompilerId.cu]
+  considering line: [cudafe++ --microsoft_version=1916 --msvc_target_version=1916 --compiler_bindir "D:/Soft/Vistual Studio2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/../../../../../../.." --sdk_dir "D:/Windows Kits/10/" --allow_managed --m64 --parse_templates --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" "tmp/CMakeCUDACompilerId.cpp4.ii" ]
+  considering line: [cl.exe @"tmp/CMakeCUDACompilerId.obj.res" -Fo"tmp/CMakeCUDACompilerId.obj" ]
+  considering line: [CMakeCUDACompilerId.cudafe1.cpp]
+  considering line: [c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(49): warning C4083: 应输入“)”；找到标识符“C4819”]
+  considering line: [c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt/device_functions.h(49): warning C4083: 应输入“)”；找到标识符“C4819”]
+  considering line: [c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\device_double_functions.h(49): warning C4083: 应输入“)”；找到标识符“C4819”]
+  considering line: [c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\sm_20_intrinsics.h(54): warning C4083: 应输入“)”；找到标识符“C4819”]
+  considering line: [c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(49): warning C4083: 应输入“)”；找到标识符“C4819”]
+  considering line: [nvlink --arch=sm_30 --register-link-binaries="tmp/a_dlink.reg.c"  -m64   "/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/../lib/x64" -cpu-arch=X86_64 "tmp/CMakeCUDACompilerId.obj"  -o "tmp/a_dlink.sm_30.cubin"]
+    ignoring nvlink line
+  considering line: [fatbinary --create="tmp/a_dlink.fatbin" -64 --cmdline="" -link "--image=profile=sm_30,file=tmp/a_dlink.sm_30.cubin" --embedded-fatbin="tmp/a_dlink.fatbin.c" ]
+  considering line: [cl.exe @"tmp/a_dlink.obj.res" -Fo"tmp/a_dlink.obj" ]
+  considering line: [link.stub]
+  considering line: [cl.exe @"tmp/a.exe.res" -Fe"a.exe" ]
+    extracted link line: [cl.exe -nologo "tmp/a_dlink.obj" "tmp/CMakeCUDACompilerId.obj" -link -INCREMENTAL:NO   "/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/../lib/x64" cudadevrt.lib  cudart_static.lib -Fe"a.exe" ]
+  considering line: [  正在创建库 a.lib 和对象 a.exp]
+  considering line: []
+
+  link line regex: [^( *|.*[/\])(link\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  link line: [cuda-fake-ld cl.exe -nologo "tmp/a_dlink.obj" "tmp/CMakeCUDACompilerId.obj" -link -INCREMENTAL:NO   "/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/../lib/x64" cudadevrt.lib  cudart_static.lib -Fe"a.exe" ]
+    arg [cuda-fake-ld] ==> ignore
+    arg [cl.exe] ==> recognize MSVC cl
+    arg [-nologo] ==> ignore
+    arg [tmp/a_dlink.obj] ==> ignore
+    arg [tmp/CMakeCUDACompilerId.obj] ==> ignore
+    arg [-link] ==> ignore MSVC cl option
+    arg [-INCREMENTAL:NO] ==> ignore
+    arg [/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/../lib/x64] ==> dir [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/../lib/x64]
+    arg [cudadevrt.lib] ==> lib [cudadevrt.lib]
+    arg [cudart_static.lib] ==> lib [cudart_static.lib]
+    arg [-Fea.exe] ==> ignore
+  collapse library dir [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/../lib/x64] ==> [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64]
+  implicit libs: [cudadevrt.lib;cudart_static.lib]
+  implicit objs: []
+  implicit dirs: [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64]
+  implicit fwks: []
+
+
+Parsed CUDA nvcc include information from above output:
+  found 'PATH=' string: [D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64;D:\Soft\Vistual Studio2017\Community\Common7\IDE\VC\VCPackages;D:\Soft\Vistual Studio2017\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;D:\Soft\Vistual Studio2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;D:\Soft\Vistual Studio2017\Community\MSBuild\15.0\bin\Roslyn;D:\Soft\Vistual Studio2017\Community\Team Tools\Performance Tools\x64;D:\Soft\Vistual Studio2017\Community\Team Tools\Performance Tools;D:\Soft\Vistual Studio2017\Shared\Common\VSPerfCollectionTools\\x64;D:\Soft\Vistual Studio2017\Shared\Common\VSPerfCollectionTools\;D:\Windows Kits\10\bin\10.0.17763.0\x64;D:\Windows Kits\10\bin\x64;D:\Soft\Vistual Studio2017\Community\\MSBuild\15.0\bin;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;D:\Soft\Vistual Studio2017\Community\Common7\IDE\;D:\Soft\Vistual Studio2017\Community\Common7\Tools\;D:\Soft\CodeBlocks\MinGW\bin;C:\CTeX\LOCALT~1\ty\bin;C:\CTeX\LOCALT~1\cct\bin;C:\CTeX\texmf\miktex\bin;C:\CTeX\gs\gs8.51\bin;C:\CTeX\WinEdt;C:\Program Files\OpenSSH-Win64;c:\windows\system32;C:\Program Files\Go\bin;C:\Program Files (x86)\ZeroTier\One\;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64;D:\Soft\Vistual Studio2017\Community\;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\lib\x64;D:\Windows Kits\10\Lib\10.0.17763.0\ucrt\x64;D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\include;D:\Windows Kits\10\Lib\10.0.17763.0\ucrt;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\Soft\PyCharm Community Edition 2020.2.1\bin;D:\Soft\VS Code\Microsoft VS Code\bin;C:\texlive\2021\bin\win32;C:\Program Files\JetBrains\PyCharm 2020.1\bin;D:\Soft\CLion 2021.2.2\bin;;D:\Soft\GoLand 2021.3.2\bin;;C:\Users\admin\go\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\bin\win64;C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.1\common\lib\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1;D:\Soft\CLion 2021.2.2\bin\cmake\win\bin\;;D:\Soft\Vistual Studio2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;D:\Soft\Vistual Studio2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja]
+  found 'LIBRARIES=' string: ["/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/../lib/x64"]
+  considering line: []
+  considering line: [E:\mydata\cuda\kmeans\cmake-build-debug\CMakeFiles\3.20.2\CompilerIdCUDA>call "D:/Soft/Vistual Studio2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/../../../../../../../VC/Auxiliary/Build/vcvars64.bat" ]
+  considering line: [**********************************************************************]
+  considering line: [** Visual Studio 2017 Developer Command Prompt v15.9.50]
+  considering line: [** Copyright (c) 2017 Microsoft Corporation]
+  considering line: [**********************************************************************]
+  considering line: [[vcvarsall.bat] Environment initialized for: 'x64']
+  considering line: [D:/Soft/Vistual Studio2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/../../../../../../../VC/Auxiliary/Build/vcvars64.bat]
+  considering line: [PyCharm Community Edition=D:\Soft\PyCharm Community Edition 2020.2.1\bin]
+  considering line: []
+  considering line: [erase tmp/a_dlink.reg.c]
+  considering line: [CMakeCUDACompilerId.cu]
+  considering line: [cl.exe @"tmp/CMakeCUDACompilerId.cpp1.ii.res" > "tmp/CMakeCUDACompilerId.cpp1.ii" ]
+  considering line: [CMakeCUDACompilerId.cu]
+  considering line: [cicc --microsoft_version=1916 --msvc_target_version=1916 --compiler_bindir "D:/Soft/Vistual Studio2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/../../../../../../.." --sdk_dir "D:/Windows Kits/10/" --allow_managed  -arch compute_30 -m64 -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "CMakeCUDACompilerId.fatbin.c" -tused -nvvmir-library "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/../nvvm/libdevice/libdevice.10.bc" --gen_module_id_file --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" --orig_src_file_name "CMakeCUDACompilerId.cu" --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.c" --stub_file_name "tmp/CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "tmp/CMakeCUDACompilerId.cudafe1.gpu"  "tmp/CMakeCUDACompilerId.cpp1.ii" -o "tmp/CMakeCUDACompilerId.ptx"]
+  considering line: [ptxas -arch=sm_30 -m64 "tmp/CMakeCUDACompilerId.ptx"  -o "tmp/CMakeCUDACompilerId.sm_30.cubin" ]
+  considering line: [fatbinary --create="tmp/CMakeCUDACompilerId.fatbin" -64 --cmdline="" "--image=profile=sm_30,file=tmp/CMakeCUDACompilerId.sm_30.cubin" "--image=profile=compute_30,file=tmp/CMakeCUDACompilerId.ptx" --embedded-fatbin="tmp/CMakeCUDACompilerId.fatbin.c" ]
+  considering line: [cl.exe @"tmp/CMakeCUDACompilerId.cpp4.ii.res" > "tmp/CMakeCUDACompilerId.cpp4.ii" ]
+  considering line: [CMakeCUDACompilerId.cu]
+  considering line: [cudafe++ --microsoft_version=1916 --msvc_target_version=1916 --compiler_bindir "D:/Soft/Vistual Studio2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/../../../../../../.." --sdk_dir "D:/Windows Kits/10/" --allow_managed --m64 --parse_templates --gen_c_file_name "tmp/CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "tmp/CMakeCUDACompilerId.module_id" "tmp/CMakeCUDACompilerId.cpp4.ii" ]
+  considering line: [cl.exe @"tmp/CMakeCUDACompilerId.obj.res" -Fo"tmp/CMakeCUDACompilerId.obj" ]
+  considering line: [CMakeCUDACompilerId.cudafe1.cpp]
+  considering line: [c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(49): warning C4083: 应输入“)”；找到标识符“C4819”]
+  considering line: [c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt/device_functions.h(49): warning C4083: 应输入“)”；找到标识符“C4819”]
+  considering line: [c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\device_double_functions.h(49): warning C4083: 应输入“)”；找到标识符“C4819”]
+  considering line: [c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\sm_20_intrinsics.h(54): warning C4083: 应输入“)”；找到标识符“C4819”]
+  considering line: [c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(49): warning C4083: 应输入“)”；找到标识符“C4819”]
+  considering line: [nvlink --arch=sm_30 --register-link-binaries="tmp/a_dlink.reg.c"  -m64   "/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/../lib/x64" -cpu-arch=X86_64 "tmp/CMakeCUDACompilerId.obj"  -o "tmp/a_dlink.sm_30.cubin"]
+    ignoring nvlink line
+  considering line: [fatbinary --create="tmp/a_dlink.fatbin" -64 --cmdline="" -link "--image=profile=sm_30,file=tmp/a_dlink.sm_30.cubin" --embedded-fatbin="tmp/a_dlink.fatbin.c" ]
+  considering line: [cl.exe @"tmp/a_dlink.obj.res" -Fo"tmp/a_dlink.obj" ]
+  considering line: [link.stub]
+  considering line: [cl.exe @"tmp/a.exe.res" -Fe"a.exe" ]
+    extracted link line: [cl.exe -nologo "tmp/a_dlink.obj" "tmp/CMakeCUDACompilerId.obj" -link -INCREMENTAL:NO   "/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/../lib/x64" cudadevrt.lib  cudart_static.lib -Fe"a.exe" ]
+  considering line: [  正在创建库 a.lib 和对象 a.exp]
+  considering line: []
+  found 'INCLUDES=' string: ["-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/../include"  ]
+
+  link line regex: [^( *|.*[/\])(link\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  link line: [cuda-fake-ld cl.exe -nologo "tmp/a_dlink.obj" "tmp/CMakeCUDACompilerId.obj" -link -INCREMENTAL:NO   "/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/../lib/x64" cudadevrt.lib  cudart_static.lib -Fe"a.exe" ]
+    arg [cuda-fake-ld] ==> ignore
+    arg [cl.exe] ==> recognize MSVC cl
+    arg [-nologo] ==> ignore
+    arg [tmp/a_dlink.obj] ==> ignore
+    arg [tmp/CMakeCUDACompilerId.obj] ==> ignore
+    arg [-link] ==> ignore MSVC cl option
+    arg [-INCREMENTAL:NO] ==> ignore
+    arg [/LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/../lib/x64] ==> dir [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/../lib/x64]
+    arg [cudadevrt.lib] ==> lib [cudadevrt.lib]
+    arg [cudart_static.lib] ==> lib [cudart_static.lib]
+    arg [-Fea.exe] ==> ignore
+  collapse library dir [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/../lib/x64] ==> [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64]
+  implicit libs: [cudadevrt.lib;cudart_static.lib]
+  implicit objs: []
+  implicit dirs: [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64]
+  implicit fwks: []
+
+

@@ -1,0 +1,60 @@
+Detecting CUDA compiler ABI info failed to compile with the following output:
+Change Dir: E:/mydata/cuda/kmeans/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Soft/CodeBlocks/MinGW/bin/mingw32-make.exe -f Makefile cmTC_964b9/fast && D:/Soft/CodeBlocks/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_964b9.dir\build.make CMakeFiles/cmTC_964b9.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/mydata/cuda/kmeans/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CUDA object CMakeFiles/cmTC_964b9.dir/CMakeCUDACompilerABI.cu.obj
+C:\PROGRA~1\NVIDIA~2\CUDA\v10.1\bin\nvcc.exe    -D_WINDOWS -Xcompiler=" /EHsc"  -Xcompiler="-Zi -Ob0 -Od /RTC1" --generate-code=arch=compute_30,code=[compute_30,sm_30] -Xcompiler=-MDd   -Xcompiler=-v -x cu -c "D:\Soft\CLion 2021.2.2\bin\cmake\win\share\cmake-3.20\Modules\CMakeCUDACompilerABI.cu" -o CMakeFiles\cmTC_964b9.dir\CMakeCUDACompilerABI.cu.obj -Xcompiler=-FdCMakeFiles\cmTC_964b9.dir/,-FS
+cl: 命令行 warning D9002 :忽略未知选项“-v”
+CMakeCUDACompilerABI.cu
+cl: 命令行 warning D9002 :忽略未知选项“-v”
+CMakeCUDACompilerABI.cu
+CMakeCUDACompilerABI.cu
+cl: 命令行 warning D9002 :忽略未知选项“-v”
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(49): warning C4083: 应输入“)”；找到标识符“C4819”
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt/device_functions.h(49): warning C4083: 应输入“)”；找到标识符“C4819”
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\device_double_functions.h(49): warning C4083: 应输入“)”；找到标识符“C4819”
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\sm_20_intrinsics.h(54): warning C4083: 应输入“)”；找到标识符“C4819”
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(49): warning C4083: 应输入“)”；找到标识符“C4819”
+C:\PROGRA~1\NVIDIA~2\CUDA\v10.1\bin\nvcc.exe    -D_WINDOWS -Xcompiler=" /EHsc"  -Xcompiler="-Zi -Ob0 -Od /RTC1" --generate-code=arch=compute_30,code=[compute_30,sm_30] -Xcompiler=-MDd   -Xcompiler=-v -x cu -M "D:\Soft\CLion 2021.2.2\bin\cmake\win\share\cmake-3.20\Modules\CMakeCUDACompilerABI.cu" -MT CMakeFiles\cmTC_964b9.dir\CMakeCUDACompilerABI.cu.obj -o CMakeFiles\cmTC_964b9.dir\CMakeCUDACompilerABI.cu.obj.d
+CMakeCUDACompilerABI.cu
+cl: 命令行 warning D9002 :忽略未知选项“-v”
+CMakeCUDACompilerABI.cu
+cl: 命令行 warning D9002 :忽略未知选项“-v”
+CMakeCUDACompilerABI.cu
+Linking CUDA executable cmTC_964b9.exe
+"D:\Soft\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_964b9.dir\link.txt --verbose=1
+"D:\Soft\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_964b9.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests -- "D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\link.exe" /nologo CMakeFiles/cmTC_964b9.dir/CMakeCUDACompilerABI.cu.obj  /out:cmTC_964b9.exe /implib:cmTC_964b9.lib /pdb:E:\mydata\cuda\kmeans\cmake-build-debug\CMakeFiles\CMakeTmp\cmTC_964b9.pdb /version:0.0  -v /debug /INCREMENTAL /subsystem:console  cudadevrt.lib cudart_static.lib  -LIBPATH:"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64" 
+RC Pass 1: command "rc /fo CMakeFiles\cmTC_964b9.dir/manifest.res CMakeFiles\cmTC_964b9.dir/manifest.rc" failed (exit code 0) with the following output:
+系统找不到指定的文件。mingw32-make.exe[1]: *** [CMakeFiles\cmTC_964b9.dir\build.make:100: cmTC_964b9.exe] Error -1
+mingw32-make.exe[1]: Leaving directory 'E:/mydata/cuda/kmeans/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_964b9/fast] Error 2
+
+
+
+
+Determining if the CUDA compiler works failed with the following output:
+Change Dir: E:/mydata/cuda/kmeans/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Soft/CodeBlocks/MinGW/bin/mingw32-make.exe -f Makefile cmTC_a398d/fast && D:/Soft/CodeBlocks/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a398d.dir\build.make CMakeFiles/cmTC_a398d.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/mydata/cuda/kmeans/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CUDA object CMakeFiles/cmTC_a398d.dir/main.cu.obj
+C:\PROGRA~1\NVIDIA~2\CUDA\v10.1\bin\nvcc.exe    -D_WINDOWS -Xcompiler=" /EHsc"  -Xcompiler="-Zi -Ob0 -Od /RTC1" --generate-code=arch=compute_30,code=[compute_30,sm_30] -Xcompiler=-MDd -x cu -c E:\mydata\cuda\kmeans\cmake-build-debug\CMakeFiles\CMakeTmp\main.cu -o CMakeFiles\cmTC_a398d.dir\main.cu.obj -Xcompiler=-FdCMakeFiles\cmTC_a398d.dir/,-FS
+main.cu
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(49): warning C4083: 应输入“)”；找到标识符“C4819”
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt/device_functions.h(49): warning C4083: 应输入“)”；找到标识符“C4819”
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\device_double_functions.h(49): warning C4083: 应输入“)”；找到标识符“C4819”
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\sm_20_intrinsics.h(54): warning C4083: 应输入“)”；找到标识符“C4819”
+c:\program files\nvidia gpu computing toolkit\cuda\v10.1\include\crt\math_functions.h(49): warning C4083: 应输入“)”；找到标识符“C4819”
+C:\PROGRA~1\NVIDIA~2\CUDA\v10.1\bin\nvcc.exe    -D_WINDOWS -Xcompiler=" /EHsc"  -Xcompiler="-Zi -Ob0 -Od /RTC1" --generate-code=arch=compute_30,code=[compute_30,sm_30] -Xcompiler=-MDd -x cu -M E:\mydata\cuda\kmeans\cmake-build-debug\CMakeFiles\CMakeTmp\main.cu -MT CMakeFiles\cmTC_a398d.dir\main.cu.obj -o CMakeFiles\cmTC_a398d.dir\main.cu.obj.d
+main.cu
+Linking CUDA executable cmTC_a398d.exe
+"D:\Soft\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a398d.dir\link.txt --verbose=1
+"D:\Soft\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_a398d.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests -- "D:\Soft\Vistual Studio2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx64\x64\link.exe" /nologo CMakeFiles/cmTC_a398d.dir/main.cu.obj  /out:cmTC_a398d.exe /implib:cmTC_a398d.lib /pdb:E:\mydata\cuda\kmeans\cmake-build-debug\CMakeFiles\CMakeTmp\cmTC_a398d.pdb /version:0.0 /debug /INCREMENTAL /subsystem:console  cudadevrt.lib cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib  -LIBPATH:"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64" 
+RC Pass 1: command "rc /fo CMakeFiles\cmTC_a398d.dir/manifest.res CMakeFiles\cmTC_a398d.dir/manifest.rc" failed (exit code 0) with the following output:
+系统找不到指定的文件。mingw32-make.exe[1]: *** [CMakeFiles\cmTC_a398d.dir\build.make:100: cmTC_a398d.exe] Error -1
+mingw32-make.exe[1]: Leaving directory 'E:/mydata/cuda/kmeans/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:126: cmTC_a398d/fast] Error 2
+
+
+
