@@ -1,4 +1,4 @@
-ToolSet: w64 6.0 (local)@D:\Soft\CodeBlocks\MinGW
-Options: 
+ToolSet: 15.0 (local)@D:\Soft\Vistual Studio2017\Community
+Options: msvc.arch=amd64
 
 Options:

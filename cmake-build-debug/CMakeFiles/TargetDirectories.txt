@@ -1,0 +1,4 @@
+E:/mydata/cuda/kmeans/cmake-build-debug/CMakeFiles/gpukmeanslib.dir
+E:/mydata/cuda/kmeans/cmake-build-debug/CMakeFiles/kmeans.dir
+E:/mydata/cuda/kmeans/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/mydata/cuda/kmeans/cmake-build-debug/CMakeFiles/rebuild_cache.dir
